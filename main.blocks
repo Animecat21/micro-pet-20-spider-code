@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="#}4*O,**PFd?E3AszA~," x="0" y="0"/><block type="device_forever" id="ScDi~3[v(ATlZ,p_n!NO" x="205" y="0"><statement name="HANDLER"><block type="device_show_leds" id="%En_j~AE%TD,vBl8bnQp"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="control_wait_us" id=":FGA{TBO`9{368B.mqI;"><value name="micros"><shadow type="math_number_minmax" id="{)r?=K.E6Hhay?%%d(m}"><mutation min="0" max="6000" label="Micros" precision="0"/><field name="SLIDER">4</field></shadow></value><next><block type="device_show_leds" id="Jyglt$PK3Zw1]Y74O=-@"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="U[Xyz@oYTVgT1kK!YEvB" x="64" y="671"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="oVa7RwSk7T_yINc{(nf4"><value name="text"><shadow type="text" id="oEhBv-2/Kc%R/9/jOKBT"><field name="TEXT">can I be your friend?</field></shadow></value></block></statement></block><block type="device_gesture_event" id="MoILA+zyrI]C)wK4Y4W*" x="303" y="908"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_print_message" id="3WS{Jm/P.*2*1xaP%O_G"><value name="text"><shadow type="text" id="ko(nEp|H_gRDP6`5)TqF"><field name="TEXT">Hello!</field></shadow></value></block></statement></block></xml>
